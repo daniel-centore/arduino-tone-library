@@ -25,11 +25,11 @@ You MUST have a resistor in line with the speaker, or you WILL damage your contr
 ## Library Usage
 ### Instantiation/Creation
 ```
-
 Tone tone1;
 
-void setup(void) { tone1.begin(13); }
-
+void setup(void) {
+  tone1.begin(13);
+}
 ```
 ### Methods
  * `begin(pin)` - prepares a pin for playing a tone.
