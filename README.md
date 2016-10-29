@@ -37,7 +37,7 @@ void setup(void) {
  * `play(frequency[,duration])` - play a tone.
    * frequency is in Hertz, and the duration is in milliseconds.
    * duration is optional. If duration is not given, tone will play continuously until stop() is called.
- * `play()` is non-blocking. Once called, play() will return immediately. If duration is given, the tone will play for that amount of time, and then stop automatically.
+   * `play()` is non-blocking. Once called, play() will return immediately. If duration is given, the tone will play for that amount of time, and then stop automatically.
  * `stop()` - stop playing a tone.
 ### Constants
 [Tone.h](../blob/master/Tone.h) includes a list of available constants for notes and their frequencies in Hz. For example, `NOTE_A4`.
